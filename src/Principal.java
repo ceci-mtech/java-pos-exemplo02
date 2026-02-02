@@ -4,34 +4,21 @@ public class Principal {
 
 	public static void main(String[] args) {
 			
-		Scanner input = new Scanner(System.in);
+		int numero = 1;
 		
-		double nota1, nota2, nota3, media;		
+		switch (numero) {
+			case 1:
+				System.out.println("Você digitou 1");
+				break;
+			case 2:
+				System.out.println("Você digitou 2");
+				break;
+			case 3:
+				System.out.println("Você digitou 3");
+				break;
+				
+			
 		
-		System.out.println("Digite o valor da nota 1: ");
-		
-		nota1 = input.nextDouble();
-		
-		System.out.println("Digite o valor da nota 2: ");
-		
-		nota2 = input.nextDouble();
-		
-		System.out.println("Digite o valor da nota 3: ");
-		
-		nota3 = input.nextDouble();
-		
-		media = (nota1 + nota2 + nota3)/3;
-		
-		System.out.println("A média é igual a: "+ media);
-		
-		if (media >= 7) {
-			System.out.println("Aprovado");
-		}else {
-			if(media < 4) {
-				System.out.println("Reprovado");
-			}else {
-				System.out.println("Final");				
-			}
 		}
 		
 	}
