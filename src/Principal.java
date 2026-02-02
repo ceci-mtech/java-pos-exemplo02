@@ -4,7 +4,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 			
-		int numero = 1;
+		int numero = 5;
 		
 		switch (numero) {
 			case 1:
@@ -16,6 +16,9 @@ public class Principal {
 			case 3:
 				System.out.println("Você digitou 3");
 				break;
+			default:
+				System.out.println("Você digitou um valor invalido");
+				
 				
 			
 		
