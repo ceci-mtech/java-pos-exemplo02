@@ -3,17 +3,17 @@ public class Principal {
 
 	public static void main(String[] args) {
 			
-		int valor1, valor2;
+		int valor = 5;
 		
-		valor1 = 10;
-		valor2= 5;
-
-		System.out.println(valor1 == valor2);
-		System.out.println(valor1 != valor2);
-		System.out.println(valor1 >= valor2);
-		System.out.println(valor1 <= valor2);
-		System.out.println(valor1 > valor2);
-		System.out.println(valor1 < valor2);
+		if(valor == 8){
+			System.out.println("Valor = 8");
+			System.out.println("Gostou?");
+		} else 
+			if (valor > 8) {
+				System.out.println("Valor > 8");
+			}else {
+				System.out.println("Valor < 8");
+			}
 		
 	}
 
